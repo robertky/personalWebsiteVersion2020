@@ -101,6 +101,9 @@ address {
   -webkit-columns: 4;
   -moz-columns: 4;
   columns: 4;
+  -webkit-column-width: 150px;
+  -moz-column-width: 150px;
+  column-width: 150px;
   list-style-position: inside;
 }
 
