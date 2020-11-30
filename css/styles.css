@@ -59,6 +59,11 @@ body {
   background-color: #fff;
 }
 
+footer{
+  text-align: center;
+  font-size: 80%;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }

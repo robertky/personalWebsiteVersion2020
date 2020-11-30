@@ -35,3 +35,19 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+$(function(){
+    $.ajax({
+        type: "GET",
+        dataType: "json",
+        url: "https://kwqzo95axg.execute-api.us-east-1.amazonaws.com/DEV/viewcounter",
+        crossDomain: true,
+        success: function(data) {
+            //console.log("success", data);
+            $('#lbl').html(data["Count"]["Attributes"]["CountTracker"])
+        },
+        error: function(data){
+            console.log("Error", data);
+        }
+    });
+});
