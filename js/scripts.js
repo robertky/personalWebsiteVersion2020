@@ -40,7 +40,7 @@ $(function(){
     $.ajax({
         type: "GET",
         dataType: "json",
-        url: "https://kwqzo95axg.execute-api.us-east-1.amazonaws.com/DEV/viewcounter",
+        url: "https://836qlfun65.execute-api.us-east-1.amazonaws.com/Prod/viewcounter",
         crossDomain: true,
         success: function(data) {
             //console.log("success", data);
