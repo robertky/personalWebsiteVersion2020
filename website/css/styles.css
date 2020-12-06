@@ -9678,6 +9678,18 @@ button.bg-dark:focus {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.AWSTechUsedChart {
+  display: block;
+  max-width: 60%;
+  height: auto;
+}
+
+.personalWebsiteMap {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
@@ -10009,6 +10021,11 @@ h3 {
 body {
   padding-top: 3.375rem;
   color: #6c757d;
+}
+
+.websiteExplanationBodyPadding {
+  padding-top: 0;
+  padding-left: 2rem;
 }
 
 @media (min-width: 992px) {
