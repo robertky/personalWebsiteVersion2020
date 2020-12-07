@@ -24,13 +24,13 @@
                 <div class="#">
                     <h2 class="mb-5">Explanation of Personal Website Design</h2>
                     <div class="d-flex flex-column justify-content-between mb-2">
-                        <p>There is a lot of things that went into building my personal website. 
-                            The site has both a front end and backend part of the website. The backend 
+                        <p>A lot went into building my personal website. 
+                            The site has both a front end and a backend part of the website. The backend 
                             is mainly used to keep a visitor tracker, which can be found at the bottom 
-                            of the homepage. Beyond the website itself, I also created a CI/CD pipelines, 
+                            of the homepage. Beyond the website itself, I also created CI/CD pipelines, 
                             using github actions, for both the front end and back end of the webpage. The 
-                            CI/CD feature both automates the building of the resources (if they do not already exist), 
-                            verifying tests if they exists, and updating cloudfront when changes are pushed 
+                            CI/CD feature automates the building of the resources (if they do not already exist), 
+                            verifying tests if they exist, and updating cloudfront when changes are pushed 
                             to the front end.</p>
                         <p>Some of the AWS technologies are listed below.</p>
                         <img class="AWSTechUsedChart" src="../assets/img/Tech_used.png">
@@ -95,7 +95,7 @@
                           updated number counter from the dynamodb table. If the table happens to be empty, then the lambda 
                           function fills in the first entry.</p>
                       <p>A key thing that was needed with this was assigning a IAM role to the lambda function that allowed it 
-                          to read and update from the dynamodb table. The key thing with this is to keep the permissions as 
+                          to read and update from the dynamodb table. This is because it is best to keep the permissions as 
                           low as possible and specific only to that table for security reasons.</p>
                       <p>The function was written in Python.</p>
                     </div>
@@ -108,7 +108,7 @@
                     </div>
                     <h4 class="mb-4">Testing:</h4>
                     <div class="d-flex flex-column justify-content-between mb-2">
-                        <p>One of the important things to make sure to do when coding is to have tests. For testing 
+                        <p>One important thing to do when coding is to have tests. For testing 
                             purposes, I included tests for the backend to test my Python lambda function. Since tests should 
                             not be utilizing actual reads or writes to the database, I mocked out the database using boto3. 
                             The purpose of mocking is to have a representation of the database and testing against it, without 
@@ -149,11 +149,12 @@
                     </div>
                     <h4 class="mb-4">Conclusion:</h4>
                     <div class="d-flex flex-column justify-content-between mb-2">
-                        <p>Using all of the above in building my website was enjoyable and helped me grow my skills further with 
+                        <p>Building my website was enjoyable and helped me expand my skills further with 
                             using AWS technologies. From first setting up the S3 bucket, to setting up the serverless backend, 
                             and setting up the CI/CD pipeline, it was a great experience. Overall, I really enjoyed working with 
-                            the above products, and hope to utilize more AWS products in possible future projects. As there is 
-                            many more AWS technologies to make developing websites and other technology cost effective and efficient.</p>
+                            the above products, and I hope to utilize more AWS products in possible future projects. There are 
+                            many more AWS technologies to make developing websites and other technology cost effective and efficient and 
+                            I hope to use more of them with future projects I work on.</p>
                     </div>
                 </div>
             </section>
