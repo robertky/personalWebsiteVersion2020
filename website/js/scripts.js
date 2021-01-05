@@ -51,4 +51,4 @@ $(function () {
   });
 });
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+document.getElementById("current_year").innerHTML = new Date().getFullYear();
